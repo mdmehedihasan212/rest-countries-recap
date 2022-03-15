@@ -1,3 +1,15 @@
-.countries img{
-    width: 100px;
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+}
+.country{
+    background-color: aqua;
+    border: 3px solid rgb(212, 131, 131);
+    border-radius: 10px;
+    padding: 20px;
+}
+.country img {
+    width: 200px;
 }
